@@ -1,0 +1,90 @@
+span,
+a{
+  display: inline-block;
+}
+.navbar-brand .logo small{
+  color: #bfc1c8;
+  font-size: 0.7142857143em;
+}
+ .navbar .navbar-nav .nav-item{
+  transition: all 350ms;
+  border: 2px solid transparent;
+  &:hover{
+    border-radius: 50px;
+    border-color: #009ad8;
+    a{
+      color: #009ad8;
+    }
+  }
+  a{
+    color: white;
+  }
+ 
+}
+#active {
+  border-radius: 50px;
+  border-color: #009ad8;
+  transition: all 350ms;
+  a{
+    color: #009ad8;
+  }
+}
+.header{
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-color: #1e202b;
+}
+.search{
+  background: #1e202b;
+}
+.search input:focus{
+  outline: none;
+}
+.forecast{
+  background-color:#303241;  ;
+  color: #bfc1c8;
+  .degree{
+    font-size: 24px;
+    small{
+      font-size: 16px;
+      font-weight: 300;
+      color: #bfc1c8;
+    }
+  }
+}
+.today-forecast{
+  .location{
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .degree{
+    .num{
+      font-size: 3.4285714286rem;
+    }
+  }
+}
+.forecast-header{
+  background: rgba(0, 0, 0, 0.1);
+}
+.forecast:nth-child(even)  {
+  background-color: #262936;
+  .forecast-header{
+    background: rgba(26, 29, 36, 1);
+    color: #bfc1c8;
+  }
+}
+footer{
+  background: #262936;
+}
+footer .menu a{
+  background-color: #1e202b;
+  padding:10px 15px;
+  border-radius: 50%;
+  font-size: 16px;
+  transition: all 350ms;
+  &:hover{
+    background-color: rgb(13, 110, 253);
+    color:white
+  }
+}
